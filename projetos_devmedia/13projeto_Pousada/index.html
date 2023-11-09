@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Pousada Secreta</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@500&family=Source+Sans+3&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+            <a href="index.html">Pousada <span>Secreta</span></a>
+
+            <div class="navegacao">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#rota">Rota</a>
+                    <a href="quarto.html">Quartos</a>
+            </div>
+            </nav>
+        </header>
+        <main>
+            <section class="principal"></section>
+                
+            <section class="principal2 corFonte">
+                <h1>Pousada Secreta</h1>
+                <h4>A pousada reservada em Angra dos Reis</h4>  
+            </section>
+                
+            
+            <section class="boasVindasQuarto largura">
+                <h2 class="maiuscula">Seja bem vindo(a)!</h2>
+                <p class="negrito">Relaxe com nossas acomodações e curta o melhor de Angra dos Reis.</p>
+                <p class="negrito">Temos quartos para solteiro, casal ou família.</p>
+            </section>
+
+                <section class="cardQuartoPai largura">
+                    <section class="cardQuartoFilho">
+                        <img src="assets/quarto-solteiro1.jpg" alt="Imagem de quarto de solteiro">
+                        <a href="quarto.html#solteiro" class="cardNomeQuarto maiuscula">Quarto de Solteiro</a>
+                        <div class="divQuartoFilho"></div>
+                    </section>
+
+                    <section class="cardQuartoFilho">
+                        <img src="assets/quarto-casal1.jpg" alt="Imagem de quarto de casal">
+                        <a href="quarto.html#casal" class="cardNomeQuarto maiuscula">Quarto de Casal</a>
+                        <div class="divQuartoFilho"></div>
+                    </section>
+
+                    <section class="cardQuartoFilho">
+                        <img src="assets/quarto-familia1.jpg" alt="Imagem de quarto de família">
+                        <a href="quarto.html#familia" class="cardNomeQuarto maiuscula">Quarto de Família</a>
+                        <div class="divQuartoFilho"></div>
+                    </section> 
+                </section>
+            
+
+            <section id="rota">
+                <h2 class="largura maiuscula">Rota</h2>
+                <p class="largura negrito">Veja como chegar até a pousada.</p>
+
+                <section class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.3306736981813!2d-43.37029012542953!3d-22.974864740306206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ec9620a2d%3A0x5c8412e8969fa343!2sDevMedia!5e0!3m2!1spt-BR!2sbr!4v1694524521852!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </section>
+
+            <section id="sobre" class="largura">
+                <h2 class="maiuscula">Sobre a pousada!</h2>
+                <p class="negrito">Conheça um pouco sobre nossa pousada.</p>
+
+                <section class="paiCardSobre">
+                    <section class="cardSobre">
+                        <div>
+                            <h3>A Pousada</h3>
+                            <p>A pousada Dev dispõe de estacionamento privado gratuito, piscina ao ar livre e bar.</p>
+                        </div>
+                        <img src="assets/img1.jpg" alt="Imagem Piscina">
+                    </section>
+
+                    <section class="cardSobre">
+                        <div>
+                            <h3>Nossos Quartos</h3>
+                            <p>Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeições. Além disso, as unidades da pousada Dev contam com ar-condicionado e guarda-roupa.</p>
+                        </div>
+                        <img src="assets/img2.jpg" alt="Imagem Quarto">
+                    </section>
+
+                </section>
+
+                <section class="paiCardSobre">
+                    <section class="cardSobre">
+                        <div>
+                            <h3>Alimentação</h3>
+                            <p>A pousada serve café da manhã em estilo continental ou buffet. Nossos restaurantes funcionam 24hs.</p>
+                        </div>
+                        <img src="assets/img3.jpg" alt="Imagem Refeições">
+                    </section>
+
+                    <section class="cardSobre cardSobreRecepcao">
+                        <div>
+                            <h3 id="h3RecepcaoCardSobre">Recepção</h3>
+                            <p id="pRecepcaoCardSobre">Nossa recepção fica aberta 24hs.</p>
+                        </div>
+                        <img src="assets/img5.jpg" alt="Imagem recepção">
+                    </section>
+               </section>
+        </main>
+
+        <footer>
+            <section class="footer largura corFonte">
+                <section class="cabecarioFooter">
+                    <h4 class="iconeFooter">Entre em contato conosco:</h4>
+
+                    <div class="iconeFooter">
+                        <img src="assets/icones/endereco.png" alt="Ícone de endereço">
+                        <a href="https://goo.gl/maps/ebEebY6VQHo9cA7U8" class="corFonte">Endereço Av. 123,122-Rio de Janeiro RJ</a>
+                    </div>
+                    
+                    <div class="iconeFooter">
+                        <img src="assets/icones/telefone.png" alt="Ícone de telefone">
+                        <p>Cel:5521000000000</p>
+                    </div>
+
+                    <div class="iconeFooter">
+                        <img src="assets/icones/calendario.png" alt="Ícone de calendário">
+                        <a href="https://www.booking.com/" class="corFonte">Faça sua reserva pelo Booking.com</a>
+                    </div>
+               </section>
+
+                <hr color="darkgray">
+                
+                <div class="copy">
+                    &copy; Copyright - PousadaDev - Refeito por Leandro Chaves
+                </div>
+            </section>
+        </footer>
+    </body> 
+</html>

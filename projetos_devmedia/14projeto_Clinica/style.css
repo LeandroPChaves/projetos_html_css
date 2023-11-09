@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Poppins:wght@300;400;500;600&family=Roboto:wght@500&family=Source+Sans+3&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    color: rgba(0, 0, 0, 0.815);
+}
+
+/* header{
+    background-color: #00CAD1;
+} */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00CAD1;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+a > img{
+    width: 120px;
+}
+
+.color{
+    color: white;
+}
+
+.principal{
+    height: 500px;
+    background-color: rgb(135, 165, 165);
+    background-image: url(assets/recepcao.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    position: relative;
+}   
+
+.principal > h1{
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    font-family: 'Inclusive Sans', sans-serif;
+    line-height: 60px;
+}
+
+.letraForma{
+    text-transform: uppercase;
+}
+
+.largura{
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+p{
+    line-height: 22px;
+}
+
+.beneficiosClinica{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+h3{
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+div{
+    margin: auto 0;
+}
+
+li{
+    text-align: left;
+    line-height: 22px;
+}
+
+.multiEspecialidade{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.articleEspecialidade{
+    box-shadow: 0 0 10px gray;
+    margin: 0 30px;
+}
+
+.articleEspecialidade img{
+    max-width: 100%;
+    box-shadow: 0 0 5px gray;
+}
+
+.articleEspecialidade p{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.botao{
+    margin: 30px auto;
+    text-align: center;
+    padding: 14px;
+    width: 200px;
+    background-color: #00CAD1;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+.contato{
+    padding: 10px 0;
+}
+
+.mapa{
+    max-width: 96%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #00CAD1;
+    padding: 15px 0;
+}
+
+footer p{
+    line-height: 40px;
+}
+
+footer img{
+    width: 120px;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+nav img:hover{
+    width: 130px;
+}
+
+.botao:hover{
+    background-color: blue;
+}
+
+@media(max-width: 768px){
+
+    nav a{
+        font-size: 15px;
+    }
+
+    nav img{
+        width: 90px;
+        margin-top: 12px;
+    }
+
+    .principal > h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .beneficiosClinica img{
+        height: 150px;
+        margin-top: 10px;
+    }
+
+    h3{
+        font-size: 14px;
+    }
+
+    li{
+        font-size: 12px;
+    }
+
+    .multiEspecialidade{
+        flex-wrap: wrap;
+    }
+
+    .articleEspecialidade{
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .articleEspecialidade:last-of-type{
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .articleEspecialidade p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .articleEspecialidade img{
+        width: 320px;
+    }
+
+    .botao{
+        padding: 7px;
+        width: 160px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 425px){
+    nav a{
+        font-size: 10px;
+    }
+
+    nav img{
+        width: 80px;
+        margin-top: 12px;
+    }
+
+    .principal > h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    h2{
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .beneficiosClinica img{
+        height: 140px;
+        margin-top: 20px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+
+    li{
+        font-size: 10px;
+    }
+
+    .multiEspecialidade{
+        display: block;
+    }
+
+    .articleEspecialidade:last-of-type{
+        margin: 0 50px;
+    }
+
+    .articleEspecialidade{
+        margin: 0 50px;
+    }
+
+    .articleEspecialidade p{
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+
+
+    .botao{
+        padding: 5px;
+        width: 150px;
+        font-size: 10px;
+    }
+}
+

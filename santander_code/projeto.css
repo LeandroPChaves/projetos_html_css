@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+}
+
+.content{
+    display: grid;
+    grid-template-areas:
+    ". . . . ."
+    ". hero . form ."
+    ". hero . form ."
+    ". . . . ."
+   ;
+
+   gap: 8.5rem;
+}
+
+main{
+    grid-area: form;
+}
+
+aside{
+    grid-area: hero;
+}
+
+aside h1{
+    
+    font-size: 6.4rem;
+    font-weight: 500;
+    line-height: 7.5rem;
+    
+}
+
+aside h1 span, main h2 span {
+    color: #ff3678;
+}
+
+main{
+    width: 60rem;
+    height: 52rem;
+    border: 0.1rem solid rgba(0,0,0,0.15);
+    padding: 4.4rem 5.7rem;
+    border-radius: 1.2rem;
+}
+
+main h2{
+    max-width: 43rem;
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+
+main .actions{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* main .actions a:first-child{
+    background-color: #35c6c9;
+} */
+
+
+main .actions a{
+    font-size: 2.4rem;
+    height: 5.5rem;
+    border-radius: 1.2rem;
+    text-decoration: none;
+    background-color: #35c6c9;
+    color: #ffffff;
+    margin-top: 5.4rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .actions a + a{
+    background-color: #ff3678;
+    margin-top: 4.8rem;
+}
+
+/* No first Child eu informo as configurações do meu primeiro a, porém posso trabalhar sem o first informando que por padrão o meu a irá ficar na configuração conforme main .actions a, porém a partir do segunda a ou seja a + a ele muda a configuração conforme main .actions a + a */
+
+main footer p{
+    margin-top: 8rem;
+    font-size: 1.6rem;
+}
+
+main footer a{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+    color: #000;
+    
+}

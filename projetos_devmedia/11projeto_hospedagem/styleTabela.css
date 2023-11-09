@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logoHeaderFooter{
+    width: 900px;
+    margin: auto;
+}
+
+.logoHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0 300px;
+    padding-bottom: 20px;
+}
+
+.logoHeader img{
+    height: 70px;
+}
+
+.logo img{
+    height: 70px;
+}
+
+.cabecario{
+    padding: 35px 0;
+}
+
+.corFundoHeaderFooter{
+    background-color: #2f86d6;
+}
+
+nav{
+    margin: 20px 0;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.tituloCabecalho h2{
+    font-size: 30px;
+}
+
+.tituloCabecalho p{
+    font-size: 14px;
+}
+
+.tituloCabecalho h2, .tituloCabecalho p{
+    margin: 0 20px;
+}
+
+.color{
+color: white;
+}
+
+table{
+    width: 1024px;
+    margin: 80px auto;
+}
+
+.tipo{
+    color: gray;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.preço{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.corFundo{
+    background-color: #F1F3F7;
+    padding: 20px 0;
+}
+
+.serviço{
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+td{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+img{
+    height: 20px;
+}
+
+.paddingFooter{
+    padding: 60px;
+    text-align: center;
+    margin: auto;
+}
+
+span{
+    color: #2f86d6;
+    font-weight: bold;
+}
+
+.nomeDesenvolvedor{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+@media(max-width: 1000px){
+    nav{
+        font-size: 5px;
+    }
+
+    .logoHeader img{
+        height: 40px;
+    }
+
+    .tituloCabecalho h2{
+        font-size: 13px;
+    }
+
+    .tituloCabecalho p{
+        font-size: 6px;
+    }
+
+    .logoHeaderFooter, table{
+        min-width: 300px;
+        max-width: 98%;
+    }
+
+    table{
+        max-width: 90%;
+    }
+
+    td{
+        font-size: 6px;
+    }
+
+    .preço{
+        font-size: 9px;
+    }
+
+    .tipo{
+        font-size: 8px;
+    }
+
+    .serviço{
+        font-size: 8px;
+    }
+
+    img{
+        height: 5px;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        margin: 0 40px;
+        padding-bottom: 20px;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+    
+    footer p{
+        font-size: 8px;
+    }
+
+    .nomeDesenvolvedor p{
+        font-size: 8px;
+    }
+
+}

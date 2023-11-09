@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fredoka;
+}
+header p{
+    padding: 20px 200px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.imgCabecalho{
+    background-image: url("img/capa.jpg");
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+.descricaoCabecalho{
+    margin: 0 900px;
+    width: 500px;
+    padding-top: 75px;
+}
+.descricaoCabecalho h1{
+    font-size: 30px;
+    margin-left: 60px;
+}
+.widthSection{
+    width: 800px;
+    margin: auto;
+    padding-top: 20px;
+}
+.img-conteudo{
+    width: 250px;
+    margin: auto;
+}
+
+.widthSection{
+    margin: 25px auto;
+}
+.widthSection p{
+    padding: 20px 0;
+}
+.negrito{
+    font-weight: bold;
+}
+
+.atuacaoContato{
+    background-color: #000000;
+    padding: 25px 0;
+    /* margin-top: 20px; */
+}
+
+div{
+    background-color: white;
+    width: 250px;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 22px;
+}
+div h3{
+    text-align: center;
+}
+
+.efeitoFundo{
+    background-image: url(img/fundo.jpg);
+    min-height: 150px;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    
+}
+
+.widthSection ul{
+    margin-left: 30px;
+    padding-top: 10px;
+}

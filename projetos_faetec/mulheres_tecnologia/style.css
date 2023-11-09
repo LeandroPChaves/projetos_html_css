@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("imagens/papel-parede-site.jpg");
+    background-color: pink;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section{
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.primeiraSessao{
+    background-color: #AA0C8C;
+}
+
+section:last-of-type{
+    margin-bottom: 20px;
+}
+
+h1{
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.primeiraSessao img{
+    max-width: 98%;
+    display: block;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.primeiraSessao p{
+    color: #ffffff;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 0.8em;
+    padding: 0 7px 20px 7px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding: 20px 5px;
+    color: #AA0C8C;
+}
+
+.imagem{
+    height: 130px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 5px solid #AA0C8C;
+    margin-bottom: 20px;
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 0.8em;
+    padding:0 5px 10px 5px; 
+}
+
+video{
+    display: block;
+    width: 98%;
+    margin: auto;
+    padding-bottom: 20px;
+    border-radius: 10px 10px 25px 25px;
+}
+
+@media(max-width: 500px){
+    h1{
+        font-size: 1.1em;
+    }
+}

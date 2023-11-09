@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+img{
+    width: 100vw;
+    height: 40vh;
+}
+
+a{
+    display: block;
+    background-color: darkred;
+    padding: 110px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(209, 196, 196);
+    color: darkred;
+}

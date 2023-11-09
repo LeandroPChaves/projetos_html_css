@@ -1,0 +1,113 @@
+.menuEspecialidades{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.linha{
+    height: 2px;
+    background-color: #82BDB9;
+    text-decoration: underline;
+    
+}
+
+.menuEspecialidades a{
+    text-decoration: none ;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.especialidades{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo{
+    max-width: 600px;
+    text-align: center;
+    margin: 5px auto 30px auto;
+}
+
+.imgTabela{
+    display: flex;
+    justify-content: center;
+    margin: 30px;   
+}
+
+thead{
+    color: white;
+    background-color: #00CAD1;
+}
+
+tr th{
+    padding: 20px 0;
+}
+
+.imgEspecialista > img{
+    width: 300px;
+    height: 250px;
+}
+
+table{
+    width: 600px;
+    border-collapse: collapse;
+    height: 250px;
+    text-align: center;
+}
+
+tbody tr:nth-of-type(odd){
+    background-color: #CDCDCD;
+}
+
+div a:hover{
+    color: white;
+    background-color: #00CAD1;
+    transition-duration: 1s;
+}
+
+
+@media(max-width: 768px){
+
+    .imgEspecialista > img{
+        height: 180px;
+        width: 170px;
+    }
+
+    table th, table td{
+        font-size: 0.6em;
+     }
+
+    table{
+        height: 180px;
+    }
+}
+
+@media(max-width:425px){
+    .menuEspecialidades{
+        font-size: 0.6em;
+    }
+
+    .titulo{
+        font-size: 0.8em;
+    }
+
+    .imgEspecialista > img{
+        width: 135px;
+        height: 150px;
+    }
+
+    table th, table td{
+       font-size: 0.4em;
+    }
+
+    table{
+        height: 150px;
+    }
+
+    .imgTabela{
+        width: 100%;
+        margin-left: 0px;
+    }
+}

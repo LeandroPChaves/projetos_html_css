@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header{
+    background-color: lightblue;
+}
+
+header img{
+    width: 150px;
+    margin: 20px 0;
+}
+
+nav a{
+    padding: 10px;
+    color: #1d1d1d;
+}
+
+nav{
+    padding-bottom: 20px;
+}
+
+.secao{
+    margin: 30px 0;
+}
+
+.imgBanner{
+    height: 300px;
+    width: 85%;
+}
+
+#primeiroH2{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.corFonte{
+    color: rgb(64, 188, 230);
+    font-weight: bold;
+}
+
+.imgImobiliaria{
+    width: 450px;
+    padding: 10px;
+}
+
+.marginSecao{
+    width: 50%;
+    margin: auto;
+}
+
+.marginSecao p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.corFundo{
+    background-color: rgb(98, 98, 226);
+    color: white;
+    padding: 50px;
+}
+
+.tamanhoH2{
+    font-size: 20px;
+}
+
+.elementosServicos{
+    width: 40%;
+    margin: auto;
+}
+
+.plElementosServicos{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.pElementoServicos{
+    margin: 20px auto;
+}
+
+span{
+    color: yellow;
+    font-weight: bold;
+}
+
+.lElementoServicos{
+    width: 10%;
+}
+
+iframe{
+    margin: 30px;
+}
+
+.fundoContato{
+    background-color: black;
+    padding: 10px;
+    width: 1000px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+li a{
+    background-color: #ffffff;
+    line-height: 30px;
+}
+
+footer{
+    background-color: rgb(28, 110, 182);
+    color: #ffffff;
+    margin-top: -30px;
+}
+

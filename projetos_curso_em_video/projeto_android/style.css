@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'IDroid';
+    src: url('fontes/IDroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor0: #EBE5C5;
+    --cor1: #7e7a69;
+    --cor2: #2FA766;
+    --cor3: #07763b;
+    --cor4: #045028;
+    --cor5: #033319;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'IDroid', cursive; 
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor0);
+    border: 1px solid gainsboro;
+    box-shadow: 2px 2px 10px  #96917d;
+}
+
+header{
+    background-image: linear-gradient(to top, var(--cor4), var(--cor3), var(--cor2));
+    height: 220px;
+    box-shadow: 2px 2px 10px  #7e7a69;
+}
+
+.titulo{
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    color: #ffffff;
+    padding: 32px 0;
+    font-size: 45px;
+    font-weight: normal;
+    text-justify: auto;
+    text-shadow: 2px 2px 2px #033319;
+}
+
+.subTitulo{
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px #033319;
+}
+
+nav{
+    margin: 40px 0 0 10px;
+    font-size: 14px;
+}
+
+nav > a{
+    display: inline;
+    padding: 0 10px;
+    font-family: arial;
+    color: #83e1ad;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main{
+    width: 75%;
+    margin: auto;
+    border: 1px solid gainsboro; 
+    box-shadow: 2px 2px 10px  #96917d; 
+    border-radius: 0 0 10px 10px;
+}
+
+.textoInicial, .textoFinal, .fraseFinal{
+    padding: 15px 20px;
+    background-color: #ffffff;   
+}
+
+p > a{
+    color: #1A5C37;
+    font-weight: bolder;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #83E1AD, #A9EAC6);
+    
+}
+
+p > a::after{
+    content: "\1F517";
+}
+
+.imagem{
+    width: 100%;
+    margin: auto;  
+}
+
+h2{
+    font-family: var(--fonte-android) ;
+    color: #063D1E;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+p{
+    text-indent: 10px;
+    margin: 15px 0px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 2em;
+}
+
+h3{ 
+    font-family: 'IDroid' ;
+    color: #1A5C37;
+    font-weight: normal; 
+    background-image: linear-gradient(to right, #83E1AD, #A9EAC6, #DEF7E9, white);
+}
+
+span{
+    color: #1A5C37;
+    font-weight: bold;
+}
+
+#fotoAndroid{
+    margin: 0 28%;
+    width: 40%;
+    padding: 0 -20px;
+    height: 10%;
+}
+
+iframe{
+    margin: 0 5%;
+    padding: 20px 0;
+}
+
+main > .video{
+    background-color: #045028;
+    padding: 15px 20px;
+    
+}
+
+.textoFinal > div{
+     background-color: #83e1ad;
+     border-radius: 10px;
+     box-shadow: 5px 5px 5px #dad2b6;
+}
+
+.versaoAndroid{
+    /* Para mudar o símbolo da lista. Site Emoji Pedia, selecionei o Check, peguei o código dele que é 2714 e o 00A0 eu usei como espaço entre o check e a lista */
+    list-style-type: "\2714\00A0\00A0";
+    list-style-position: inside;
+    columns: 2;
+    font-size: 13px;
+
+}
+
+
+
+#subTituloFinal{
+    background-color: #1A5C37;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:5px 5px 0 0;
+    width: 103.4%;
+    margin: -1.6% 0 0 -2.2%;
+    padding: 10px 5px;
+    box-shadow: 1px 1px 1px #dad2b600;
+}
+
+.fraseFinal{
+    border-radius:0 0 5px 5px; 
+}
+
+footer{
+    background-color: #045028;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 20px;
+}
+#cursoEmVideo{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav > a:hover{
+   background-color: #83e1ad;
+   color: #045028; 
+   cursor: pointer;
+   transition: 400ms;
+   border-radius: 3px;
+}
+
+p > a:hover{
+    text-decoration: underline;
+    color: #206e42;
+}
+
+#cursoEmVideo:hover{
+    text-decoration: underline;
+    color:#43da84
+}

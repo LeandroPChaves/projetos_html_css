@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.widthMargin{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav a{
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.larguraTotal img{
+    width: 100%;
+    height: 320px;
+}
+
+.imagemConvite{
+    position: relative;
+}
+
+.convite{
+    position: absolute;
+    bottom: 30%;
+    left: 40%;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: rgba(66, 65, 65, 0.123);
+}
+
+.convite h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.convite h2{
+    margin-left: 25px;
+}
+
+.widthMargin h3{
+    padding: 20px 0;
+}
+
+/* .imgTuristicoGrande{
+    width: 100%;
+    height: 400px;
+} */
+
+/* Toda primeira imagem filha de um elemento de classe imgTuristicoGrande vai ter width: 100% */
+.imgTuristicoGrande:first-of-type{
+   width: 100%;
+   height: 350px;
+}
+
+.apresentacaoParaty{
+    text-align: justify;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.apresentacaoParaty::first-letter{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pontosAtrativos{
+    text-align: left;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ul{
+    text-align: left;
+    font-size: 12px;
+}
+
+li img{
+    height: 10px;
+}
+
+li{
+    padding: 5px 0;
+}
+
+.widthMargin .imagem{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagem img{
+    width: 33%;
+    padding: 2px;
+    box-sizing: border-box;
+    opacity: 0.7;
+}
+
+footer{
+    padding: 10px 0;
+    background-color: rgb(233, 233, 125);
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+.imagem img:hover{
+    opacity: 1;
+}
+nav a:hover{
+    color: rgb(238, 156, 49);
+}
+
+small{
+    font-size: 5px;
+}
+
+@media(max-width:700px){
+    header img{
+        height: 25px;
+    }
+
+    nav a{
+        font-size: 7px;
+    }
+
+    .imagemConvite img{
+        height: 150px;
+    }
+
+    .convite h1{
+        font-size: 20px;
+    }
+
+    .convite h2{
+        font-size: 10px;
+        margin-left: -15px;
+    }
+
+    .imgTuristicoGrande:first-of-type{
+        height: 200px;
+    }
+
+    .apresentacaoParaty{
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    footer{
+        font-size: 6px;
+    }
+}

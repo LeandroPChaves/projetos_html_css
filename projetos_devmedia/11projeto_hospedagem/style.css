@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.todasAsSecoes{
+    width: 950px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 65px;
+    margin-right: 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+.tituloCabecalho p{
+    color: #2f86d6;
+    font-weight: bold;
+}
+
+.cabecario{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+
+nav{
+    margin: 15px 0;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: #233032;
+    font-weight: bold;
+}
+
+.fundoCor{
+    background-color: #2f86d6;
+}
+
+.tipoCorComBackground{
+    color: #ffffff;
+}
+
+.alturaSecao1{
+    height: 400px;
+}
+
+.primeiraSecaoMain{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+
+.primeiraSecaoMain img{
+    height: 340px;
+}
+
+.primeiraSecaoMain p{
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.divPrimeiraSecao{
+    width: 400px;
+}
+
+.divPrimeiraSecaoP{
+    margin-top: 30px;
+}
+
+.segundaSecaoMain{
+    background-color: #205067;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divSegundaSecao{
+    padding: 20px 0;
+}
+
+h3{
+    font-size: 18px;
+}
+
+.divSegundaSecao{
+    font-size: 14px;
+}
+
+.botao{
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.imgFoguete{
+    padding: 0 10px;
+    height: 13px;
+}
+
+.divSegundaSecaoBotao{
+    margin-top: 15px;
+}
+
+.caracteristica img{
+    height: 70px;
+}
+
+/* .paiCaracteristica{
+    display: flex;
+} */
+
+#h2Secao{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+span{
+    color: #2f86d6;
+}
+
+.caracteristica{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.caracteristica p{
+    font-size: 12px;
+}
+
+.caracteristica h4, .caracteristica p{
+    padding: 10px;
+}
+
+.secaoTabela{
+    background-color: rgb(242, 248, 248);
+    margin-top: -40px;
+    height: 600px;
+}
+
+.tabela{
+    width: 900px;
+    margin: 0 auto;
+}
+
+tbody img{
+    height: 80px;
+}
+
+.secaoTabela h2{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0 30px;
+}
+
+table{
+    text-align: center;
+    box-shadow: 0 0 10px 10px #2f86d6;
+    border-radius: 10px;
+}
+
+th, td{
+    padding: 8px;
+}
+
+table tr:nth-child(2n+3){
+    background-color: rgb(217, 221, 221);
+}
+
+.confiancaAlfaTech{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.confiancaAlfaTech h3{
+    width: 400px;
+}
+
+.botao2{
+    background-color: rgb(39, 38, 38);
+}
+
+footer{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.logoFooter{
+    padding: 40px 0;
+    width: 270px;
+    margin: 0 auto;
+}
+
+.nomeDesenvolvedor{
+    background-color: rgb(242, 248, 248);
+    margin-top: 20px;
+}
+
+@media(max-width: 1000px){
+    nav{
+        font-size: 5px;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    .tituloCabecalho h2{
+        font-size: 13px;
+    }
+
+    .tituloCabecalho p{
+        font-size: 7px;
+    }
+
+    .todasAsSecoes{
+        min-width: 300px;
+        max-width: 98%;
+    }
+
+    .alturaSecao1{
+        height: 250px;
+    }
+
+    .divPrimeiraSecaoP{
+        margin-top: -10px;
+    }
+
+    .divPrimeiraSecaoP P{
+        font-size: 10px;
+    }
+
+    .divPrimeiraSecao h2{
+        font-size: 15px;
+    }
+     
+    .divPrimeiraSecao img{
+        height: 150px;
+    }
+
+    .divSegundaSecao{
+        font-size: 8px;
+    }
+
+    .divSegundaSecao h3{
+        font-size: 12px;
+    }
+
+    .divSegundaSecaoBotao{
+        width: 140px;
+    }
+
+    .botao1{
+        font-size: 6px;
+    }
+
+    #h2Secao{
+        font-size: 12px;
+        max-width: 90%;
+    }
+
+    .caracteristica p{
+        font-size: 6px;
+    }
+
+    .caracteristica h4{
+       font-size: 8px;
+    }
+
+    .secaoTabela h2{
+        font-size: 12px;
+        max-width: 90%;
+    }
+
+    .secaoTabela{
+        height: 540px;
+    }
+
+    table{
+        max-width: 95%;
+    }
+
+    tr img{
+        height: 30px;
+    }
+
+    tr{
+        font-size: 10px;
+    }
+
+    .confiancaAlfaTech h3{
+        font-size: 12px;
+    }
+
+    .botao2{
+        font-size: 6px;
+        width: 250px;
+        height: 50px;
+    }
+
+    footer .logo{
+        width: 160px;
+
+    }
+
+    footer .tituloCabecalho{
+        margin-top: -10px;
+    }
+
+    footer{
+        font-size: 8px;
+    }
+
+    
+
+
+
+}

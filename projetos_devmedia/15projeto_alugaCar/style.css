@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 1.1em;
+}
+
+.primeiraSecao{
+    background-color: lightblue;
+    background-image: url(img/concessionaria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 40px 350px;
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 100%;
+    text-align: end;
+}
+
+.largura{
+    max-width: 610px;
+    margin: auto;
+    padding: 16px 0;
+}
+
+h3{
+    font-size: 1em;
+    padding: 20px 0;
+}
+
+p{
+    font-size: 0.8em;
+}
+
+.imgCarros{
+    display: flex;
+    height: 120px;
+    margin: 20px 0;
+}
+
+img{
+    padding: 0 2px;
+}
+
+li{
+    line-height: 30px;
+    font-size: 0.8em;
+}
+
+.contato{
+    background-color: #D92121;
+    font-size: 1.8em;
+    color: #ffffff;
+    text-align: center;
+    height: 130px;
+    padding-top: 45px;
+}
+
+.contato > h3{
+    background-color: #3d0505;
+    padding: 5px 0;
+}
+
+fieldset{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+legend{
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+
+label{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+input{
+    height: 30px;
+    margin: 10px 5px;
+}
+
+select{
+    margin: 5px;
+    height: 30px;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    background-color: #D92121;
+    color: #ffffff;
+    border: none;
+    font-size: 0.7em;
+}
+
+footer{
+    color: #D92121;
+    text-align: center;
+    font-size: 0.7em;
+    padding-bottom: 10px;
+}
+
+@media(max-width: 815px)
+{
+
+  .primeiraSecao{
+    height: 300px;
+  }
+
+  img{
+    height: 80px;
+    min-width: 32%;
+  }
+
+  h2{
+    padding: 20px 10px;
+  }
+}

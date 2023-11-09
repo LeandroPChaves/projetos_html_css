@@ -1,0 +1,61 @@
+.carousel-caption{
+    color: #220011;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.fundo_body{
+    background-image: linear-gradient(to top, rgb(161, 228, 255), rgb(24, 216, 241));
+}
+.cor{
+    color: rgb(26, 26, 1);
+}
+.h2{
+    text-align: center;
+}
+.card-img-top{
+    object-fit: cover;
+    height: 200px;
+}
+footer{
+    text-align: center;
+}
+.fonts{
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+.font_lobster{
+    font-family: 'Lobster', cursive;
+}
+.card-fundo{
+    background-color: rgb(161, 228, 255);
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+.negrito{
+    font-weight: bold;
+}
+.row{
+    margin: auto;
+}
+footer{
+    background-color: rgb(161, 228, 255);  
+}
+.rodape_destino{
+    margin-top: 8%;
+    height: 35px;
+    padding: 5px;
+}
+.rodape_promocao{
+    margin-top: -2%;
+}
+.centralizar{
+    text-align: center;
+}
+.areatexto{
+    width: 50%;
+    max-width: 80%;
+}
+.stick{
+    position: sticky;
+    top: 0;
+}
+
+    

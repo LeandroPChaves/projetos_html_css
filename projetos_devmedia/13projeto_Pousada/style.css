@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Source Sans 3', sans-serif; */
+}
+
+main{
+    color: #787e80;
+}
+
+.largura{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+nav{
+    position: fixed;
+    background-color: #ffffff;
+    display: flex;
+    width: 100%;
+    padding: 13px 0;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #787e80;
+    font-weight: bold;
+}
+
+.navegacao a{
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+span{
+    color: #829eb8
+}
+
+.corFonte{
+    color: #ffffff;
+}
+
+.principal{
+    background-image: url(assets/img-fundo.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: top;
+}
+
+.principal2{
+    background-color: hsla(169, 62%, 40%, 0.445);
+    margin: -380px auto 180px auto;
+    text-align: center;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.principal2 h1{
+    font-size: 50px;
+    padding: 30px 0;
+}
+
+.principal2 h4{
+    padding-bottom: 20px;
+    font-size: 24px;
+} 
+
+.maiuscula{
+    text-transform: uppercase;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.boasVindasQuarto{
+    height: 100px;
+}
+
+.boasVindasQuarto p{
+    padding-top: 20px;
+}
+
+.cardQuartoPai{
+    display: flex;
+    margin: 50px auto; 
+    max-width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.cardQuartoFilho img{
+    height: 200px;
+    margin-bottom: 20px;
+    max-width: 95%;
+}
+
+.cardQuartoFilho a{
+    padding-bottom: 400px;
+    margin-bottom: 50px;
+}
+
+.cardNomeQuarto{
+    text-decoration: none;
+    color: #505152;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.divQuartoFilho{
+    height: 2px;
+    width: 95%;
+    background-color: #447972;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+#rota{
+    margin-top: -60px;
+}
+
+#rota p{
+    margin: -30px auto 40px auto;
+}
+
+#sobre p{
+    padding: 20px 0;
+}
+
+.paiCardSobre{
+    display: flex;
+    margin: 50px 0;
+}
+
+.cardSobre{
+    display: flex;
+    max-width: 50%;
+    height: 100px;
+    text-align: justify;
+    padding: 0 10px;
+    
+}
+
+.cardSobre img{
+    height: 100px;
+    width: 90px;
+}
+
+.cardSobre p{
+    font-size: 14px;
+    width: 95%;
+    margin-top: -20px;
+}
+
+ .cardSobreRecepcao{
+    width: 100%;
+    justify-content: space-between;
+}
+
+ /* #pRecepcaoCardSobre{
+    width: 100%;
+} */
+
+ #h3RecepcaoCardSobre{
+    width: 200%;
+    align-items: center;
+}  
+
+
+
+footer{
+    background-color: #49997C;
+}
+
+.cabecarioFooter{
+    display: flex;
+}
+
+.iconeFooter{
+    padding: 0 10px;
+    text-align: justify;
+    display: flex;
+    margin: -30px 0 20px 0;
+    padding: 0 20px;
+}
+
+.iconeFooter a{
+    text-decoration: none;
+    font-size: 14px;
+    width: 70%;
+    margin-left: 10px;
+}
+
+.iconeFooter p{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.iconeFooter img{
+    height: 35px;
+}
+
+.copy{
+    padding: 20px;
+}
+
+nav a:hover{
+    color: #34726d;
+    background-color: rgba(82, 81, 80, 0.178);
+    border-radius: 10px;
+}
+
+@media(max-width:750px){
+    nav{
+        font-size: 15px;
+    }
+
+    .navegacao a{
+        font-size: 10px;
+    }
+
+    .principal{
+        height: 500px;
+        background-position: center;
+    }
+
+    .principal2{
+        margin-top: -300px;
+        width: 84%;
+        height: 150px;
+    }
+    
+    .principal2 h1{
+        font-size: 25px;
+    }
+
+    .principal2 h4{
+        font-size: 15px;
+    }
+
+    .maiuscula{
+        font-size: 18px;
+    }
+
+    .boasVindasQuarto{
+        margin-top: -40px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .cardQuartoFilho{
+        margin-top: 30px;
+    }
+
+    .cardQuartoFilho img{
+        height: 100px;
+    }
+
+    .cardQuartoFilho a{
+        font-size: 12px;
+    }
+    
+    iframe{
+        height: 200px;
+    }
+
+    .paiCardSobre{
+        display: block;
+        max-width: 100%;
+    }
+
+    .cardSobre{
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .cardSobre h3{
+        font-size: 14px;
+    }
+
+    .cardSobre p{
+        font-size: 10px;
+        margin-top: -15px;
+    }
+
+    .cardSobre img{
+        height: 105px;
+    }
+
+   footer{
+      width: 100%;
+   } 
+
+    .iconeFooter{
+        padding: 0 5px;
+        text-align: justify;
+        display: flex;
+        
+    }
+
+    .iconeFooter a{
+        font-size: 8px;
+    }
+
+    .iconeFooter p{
+        font-size: 6px;
+    }
+
+    .iconeFooter img{
+        height: 10px;
+    }
+
+    footer h4{
+        font-size: 8px;
+    }
+
+    .copy{
+        font-size: 10px;
+    }
+
+    #h3RecepcaoCardSobre{
+        width: 140%;
+        align-items: center;
+    } 
+}
+
+@media(min-width:768px){
+    #h3RecepcaoCardSobre{
+        width: 100%;
+        align-items: center;
+    } 
+
+    .paiCardSobre{
+        padding: 40px 0;
+    }
+}
+
+@media(min-width:1280px){
+    #h3RecepcaoCardSobre{
+        width: 220%;
+        align-items: center;
+    }
+}
+/* Iniciando e Estilização da página Quarto */
+
+.principalQuarto{
+    background-image: url(assets/img-fundo.jpg);
+    height: 200px;
+    width: 100%;
+    background-position: top;
+}
+.cardQuartoPaiPaginaQuarto{
+    margin-top: 15px;
+}
+
+.fotoQuarto{
+    width: 330px;
+}
+
+.lista{
+    max-width: 70%;
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+li{
+    width: 25%;
+}
+
+h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #3a3c3d;
+    margin-top: -40px;
+}
+
+h2{
+    color: #3a3c3d;  
+}
+
+ul:last-of-type{
+    margin-bottom: 40px;
+}
+
+
+
+
+@media(max-width: 820px){
+    .principalQuarto{
+        height: 150px;
+        background-position: center;
+        margin-bottom: 20px;
+    }
+
+    .cardQuartoPaiPaginaQuarto{
+        margin-top: -25px;
+    }
+
+    li{
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    ul{
+        display: block;
+        width: 70%;
+        margin: auto;
+    }
+
+    li{
+        width: 100%;
+    }
+}

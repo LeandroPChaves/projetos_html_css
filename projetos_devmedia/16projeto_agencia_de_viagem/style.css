@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;500&family=Source+Sans+3&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    height: 30px;
+    padding: 30px 0;
+    align-items: center;
+    max-width: 1024px;
+    margin: auto;
+}
+
+header h1{
+    font-size: 1.3em;
+    padding: 0 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #5D15D1;
+
+}
+
+header img{
+    height: 30px;
+}
+
+main{
+    background-color: #EAEAEA;
+}
+
+.container{
+    background-image: url(assets/imagens/bahia.jpg);
+    max-width: 100%;
+    padding: 40px 0;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container2{
+    max-width: 1024px;
+    margin: auto;
+}
+
+.orcamento{
+    background-color: #5D15D1;
+    display: flex;
+    font-size: 0.7em;
+    justify-content: center;
+    color: #ffffff;
+    padding: 5px 0;
+    align-items: center;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.orcamento img{
+    height: 30px;
+    transform: rotate(320deg);
+}
+
+.orcamento h2{
+    padding: 0 5px;
+    font-size: 1.3em;
+}
+
+form{
+    background-color: #ffffff;
+    width: 94%;
+    margin: auto;
+}
+
+.containerForm{
+    max-width: 98%;
+    margin: auto;
+}
+
+form > h2{
+    font-size: 1.1em;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+form label, .camaInfantil p, .hospedagem p {
+    font-size: 0.8em;
+}
+
+.nomeEmailCelular{
+    display: flex;
+    flex-direction: column;
+}
+
+.nomeEmailCelular input{
+    padding: 5px 0;
+    margin: 8px 0;
+}
+
+input::placeholder{
+    font-size: 0.8em;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataDiv, .divTrajeto{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+}
+
+.data input, .trajeto select{
+    padding: 4px 0;
+}
+
+.data label{
+    padding-bottom: 10px;
+}
+
+.trajeto{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trajeto label{
+   padding-bottom: 10px;
+}
+
+.quartoHospedagem{
+   display: flex;
+   margin: 10px 0;
+   font-size: 1em;
+   
+}
+
+.camaInfantilNao{
+    padding: 0 40px;
+}
+
+.acessorioHospedagem{
+    padding: 0 20px;
+}
+
+button{
+    background-color: #5D15D2;
+    color: #ffffff;
+    border: none;
+    padding: 5px 3px;
+}
+
+.button{
+    padding: 10px 0 20px 0;
+}
+
+.fotos{
+    margin: 25px auto;
+}
+
+.fotos h3{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.fotos p{
+    padding: 10px 0;
+    font-size: 0.9em;
+    
+}
+
+.imagemOfertas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.primeiraImagemOfertas{
+    max-width: 100%;
+    width: 512px;
+}
+
+.segundaImagemOfertas{
+    max-width: 100%;
+    width: 470px;
+    
+} 
+
+.primeiraImagemOfertas img{
+    height: 300px;
+    width: 450px;
+    max-width: 98%;
+}
+
+.segundaImagemOfertas img{
+    height: 148px;
+    width: 228px;
+    max-width: 49%;
+}
+
+.cardMae{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img{
+    height: 300px;
+    width: 470px;
+    max-width: 98%;
+}
+
+.divCard{
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    max-width: 98%;
+}
+
+h4{
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.divCard > p{
+    font-size: 0.8em;
+    padding: 0 10px 20px 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5D15D2;
+    margin-top: -50px;
+}
+
+footer h3{
+    color: #ffffff;
+    font-size: 1em;
+    padding: 10px 0;
+}
+
+footer img{
+    height: 15px;
+    padding-right: 5px;
+}
+
+.divFooter{
+    display: flex;
+    font-size: 0.7em;
+    color: #d8b9f5;
+    padding: 5px 0;
+}
+
+body > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5D15D1;
+    font-weight: bold;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+@media(max-width: 1000px) and (min-width: 500px){
+
+    .imagemOfertas{
+        flex-wrap: nowrap;
+    }
+    
+}
+
+@media(max-width: 450px){
+    .fotos p{
+        font-size: 0.7em;
+    }
+
+    .card img{
+        height: 200px;
+        width: 400px;
+        max-width: 98%;
+    }
+
+     h4{
+        font-size: 0.6em;
+        font-family: 'Roboto', sans-serif;  
+    } 
+
+    .divCard > p{
+        font-size: 0.6em;
+    }
+
+    footer h3, footer p{
+        font-size: 0.8em;
+    } 
+} 
+
+@media(max-width: 360px){
+    .quartoHospedagem label{
+        font-size: 0.7em;
+    }
+}
+
+    
+    
+
+
